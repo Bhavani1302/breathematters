@@ -42,8 +42,13 @@ import faq from '../Assets/FAQs.png';
 import frame193 from '../Assets/Frame 193.png';
 
 const LandingPage = () => { 
+    const rootStyle = {
+        overflowX: 'hidden',
+        maxWidth: '1440px',
+        margin:'0 auto' 
+    };
     const containerStyle = {
-        width: '1440px', 
+        maxWidth: '1440px', 
         height: '637px',
         position: 'relative',  
         overflow: 'hidden', 
@@ -51,7 +56,7 @@ const LandingPage = () => {
     };
 
     const headerStyle = {
-        width: "1248px",
+        maxWidth: "1248px",
         height: "68px",
         position: "absolute",
         top: '10px',
@@ -61,7 +66,7 @@ const LandingPage = () => {
     };
 
     const logoStyle = {
-        width: '260px',
+        maxWidth: '260px',
         height: '58px',
         top: '10px',
         left: '5px',
@@ -82,27 +87,27 @@ const LandingPage = () => {
     };
 
     const capnoTrainerStyle = {
-        width: "580px",
+        maxWidth: "580px",
         height: "427.88px",
         position: 'absolute',
         top: "182px",
-        left: "874px",
+        left: "930px",
     };
 
     const Rectangle31Style = {
-        width: '1440px',
+        maxWidth: '1440px',
         height: '152px',
         position: 'relative',
         top: '485px',
     };
 
     const Rectangle32Style = {
-        width: '1440px',
+        maxWidth: '1440px',
         height: '19px',
     };
 
     const Rectangle29Style = {
-        width: '1440px',
+        maxWidth: '1440px',
         height: '89px',
         top: '438px',
         position: 'absolute',
@@ -111,10 +116,10 @@ const LandingPage = () => {
     };
 
     const groupStyle = {
-        width: '204.3px',
+        maxWidth: '204.3px',
         height: '44.3px',
         top: '180px',
-        left: '504px',
+        left: '518px',
         opacity: '80%',
         position: 'absolute',
     };
@@ -129,7 +134,7 @@ const LandingPage = () => {
     };
     
     const TransformStyle = {
-        width: '1028px',
+        maxWidth: '1088px',
         height: '122px',
         top: '100px',
         left: '96px',
@@ -142,7 +147,7 @@ const LandingPage = () => {
     };    
      
     const BreathStyle = {
-        width: '479px',
+        maxWidth: '479px',
         height: '49px',
         top: '278px',
         left: '96px',
@@ -155,7 +160,7 @@ const LandingPage = () => {
     };
     
     const BreatheMoreStyle = {
-        width: '670px',
+        maxWidth: '670px',
         height: '88px',
         top: '337px',
         left: '96px',
@@ -168,7 +173,7 @@ const LandingPage = () => {
     };
     
     const EllipseStyle={
-        width:'427px',
+        maxWidth:'427px',
         height:'427px',
         top:'-126px',
         left:'1097px',
@@ -176,7 +181,7 @@ const LandingPage = () => {
     }
 
     const knosisStyle = {
-        width: '187.8567657470703px',
+        maxWidth: '187.8567657470703px',
         height: '58.70523452758789px',
         top: '697.32px',
         left: '151px',
@@ -184,7 +189,7 @@ const LandingPage = () => {
     };
 
     const cruzStyle = {
-        width: '126.44204711914062px',
+        maxWidth: '126.44204711914062px',
         height: '126.44204711914062px',
         top: '663px',
         left: '488.31px',
@@ -192,7 +197,7 @@ const LandingPage = () => {
     };
 
     const airWayStyle = {
-        width: '197.79148864746094px',
+        maxWidth: '197.79148864746094px',
         height: '93.02521514892578px',
         top: '680.16px',
         left: '758.79px',
@@ -200,7 +205,7 @@ const LandingPage = () => {
     };
     
     const conspireStyle = {
-        width: '248.36830139160156px',
+        maxWidth: '248.36830139160156px',
         height: '81.28417205810547px',
         top: '685.58px',
         left: '1040.1px',
@@ -208,7 +213,7 @@ const LandingPage = () => {
     };
 
     const container2Style = {
-        width: '1177px',
+        maxWidth: '1177px',
         height: '541px',
         top: '896px',
         left: '131px',
@@ -217,14 +222,14 @@ const LandingPage = () => {
     };
 
     const discoverStyle = {
-        width: '960px',
+        maxWidth: '960px',
         height: '61px',
         left: '109px',
         position: 'absolute', 
     };
 
     const frame144Style={
-        width:'1177px',
+        maxWidth:'1177px',
         height:'458px',
         top:'83px',
         left:'20px',
@@ -233,7 +238,7 @@ const LandingPage = () => {
     }
     
     const frame161Style={
-        width:'1245px',
+        maxWidth:'1245px',
         height:'340px',
         top:'1617px',
         left :'99px',
@@ -248,7 +253,7 @@ const LandingPage = () => {
     }
 
     const capnoStyle = {
-        width: '375px', 
+        maxWidth: '375px', 
         height: '327px', 
         top: '13px', 
         left: '481px', 
@@ -289,7 +294,7 @@ const LandingPage = () => {
     };
     
     const group11110Style = {
-        width: '295.15px', 
+        maxWidth: '295.15px', 
         height: '84px', 
         top: '227px',
         left: '901px',
@@ -298,7 +303,7 @@ const LandingPage = () => {
     };
 
     const frame617Style = {
-        width: '1440px',
+        maxWidth: '1440px',
         height: '749px',
         top: '2136px',
         position: 'absolute' ,
@@ -307,7 +312,7 @@ const LandingPage = () => {
     };
 
     const frame162Style = {
-        width: '1440px',
+        maxWidth: '1440px',
         height: '608px',
         top: '2885px',
         left:'50px',
@@ -315,7 +320,7 @@ const LandingPage = () => {
     };
 
     const frame164Style = {
-    width: '1435px',
+        maxWidth: '1435px',
     height: '745px',
     top: '3673px',
     left: '102px',
@@ -323,7 +328,7 @@ const LandingPage = () => {
     };
 
     const container3Style = {
-        width: '1248px',
+        maxWidth: '1248px',
         height: '829px',
         top: '4298px',
         left: '96px',
@@ -331,14 +336,14 @@ const LandingPage = () => {
     };
     
     const capotrainerStyle = {
-        width: '857px',
+        maxWidth: '857px',
         height: '31px',
         left: '245px',
         position: 'absolute'
     };
     
     const group11111Style = {
-        width: '400px',
+        maxWidth: '400px',
         height: '348px',
         top: '116px',
         position: 'absolute',
@@ -346,7 +351,7 @@ const LandingPage = () => {
     };
     
     const group11114Style = {
-        width: '400px',
+        maxWidth: '400px',
         height: '348px',
         top: '116px',
         left: '424px',
@@ -480,7 +485,7 @@ const LandingPage = () => {
     };
     
     return (
-        <div>
+        <div style={rootStyle}>
             <div style={containerStyle}>
                 <div>
                     <div style={grprect29Style}></div> 
